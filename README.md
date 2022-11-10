@@ -4,9 +4,6 @@
 Neste projeto criei um script onde toda a infraestrutura de usuários, grupos de usuários, diretórios e permissões são criadas automaticamente. Ao participar do Cloud DevOps Experience - Banco Carrefour na [DIO](https://web.dio.me/home), quando precisava subir uma máquina era preciso configurar toda estrutura manualmente. Este script resolve essa demanda. Toda atividade repetitiva é passiva de automação. Então resolvi unir o útil ao agradável. Sendo assim, toda nova máquina virtual que for iniciada já estará pronta para uso quando o script for executado.
 
 
-### Observações
-Ao subir uma instância linux na AWS, me deparei com erros ao executar esse script. Ainda não foi corrigido esse problema. Mas assim que eu resolver, o repositório será atualizado.
-
 <h1 align="center">💬🗣 Chega mais, vamos conversar 💬🗣</h1>
 
 <section class="social_networks">
