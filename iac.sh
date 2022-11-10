@@ -23,17 +23,17 @@ echo "########################"
 
 echo "Crio usuários..."
 
-useradd carlos -m -s /bin/bash -p $(openssl passwd -crypt Senha123) -G GRP_ADM
-useradd maria -m -s /bin/bash -p $(openssl passwd -crypt Senha123) -G GRP_ADM
-useradd joão -m -s /bin/bash -p $(openssl passwd -crypt Senha123) -G GRP_ADM
+useradd carlos -m -s /bin/bash -p $(openssl passwd Senha123) -G GRP_ADM
+useradd maria -m -s /bin/bash -p $(openssl passwd Senha123) -G GRP_ADM
+useradd joão -m -s /bin/bash -p $(openssl passwd Senha123) -G GRP_ADM
 
-useradd debora -m -s /bin/bash -p $(openssl passwd -crypt Senha123) -G GRP_VENDAS
-useradd sebastiana -m -s /bin/bash -p $(openssl passwd -crypt Senha123) -G GRP_VENDAS
-useradd roberto -m -s /bin/bash -p $(openssl passwd -crypt Senha123) -G GRP_VENDAS
+useradd debora -m -s /bin/bash -p $(openssl passwd Senha123) -G GRP_VENDAS
+useradd sebastiana -m -s /bin/bash -p $(openssl passwd Senha123) -G GRP_VENDAS
+useradd roberto -m -s /bin/bash -p $(openssl passwd Senha123) -G GRP_VENDAS
 
-useradd josefina -m -s /bin/bash -p $(openssl passwd -crypt Senha123) -G GRP_SEC
-useradd amanda -m -s /bin/bash -p $(openssl passwd -crypt Senha123) -G GRP_SEC
-useradd rogerio -m -s /bin/bash -p $(openssl passwd -crypt Senha123) -G GRP_SEC
+useradd josefina -m -s /bin/bash -p $(openssl passwd Senha123) -G GRP_SEC
+useradd amanda -m -s /bin/bash -p $(openssl passwd Senha123) -G GRP_SEC
+useradd rogerio -m -s /bin/bash -p $(openssl passwd Senha123) -G GRP_SEC
 
 echo "Especifico permissões aos diretórios..."
 
